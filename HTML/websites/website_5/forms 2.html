@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="register.phpa">
+
+     <div>
+        <label for="name">Your name:</label>
+        <input type="text" id="name"> 
+     </div>
+     <div>
+        <label for="surname">Surname:  </label>
+        <input type="text" id="surname"> 
+
+     </div>
+     <div>
+        <label for="password">Password: </label>
+        <input type="password" id="password">
+
+
+     </div>
+     <div>
+        <label for="intro">Tell me about yourself</label>
+        <textarea  id="intro" cols="30"></textarea>
+    </div>
+     
+     <div>
+        <p>Your favorite programming language</p>
+        <input type="radio" id="html" name="programming">
+        <label for="html">HTML</label>        
+        <input type="radio" id="css" name="programming">
+        <label for="css">CSS</label>        
+        <input type="radio" id="java" name="programming">
+        <label for="java">Java Script</label>
+     </div>
+     <div>
+        <p>Your favorite programming language</p>
+        <input type="checkbox" id="html2" >
+        <label for="html2">HTML</label>        
+        <input type="checkbox" id="css2" >
+        <label for="css2">CSS</label>        
+        <input type="checkbox" id="java2" >
+        <label for="java2">Java Script</label>
+     </div>
+     <div>
+        <label for="cities">Cities</label>
+        <select id="cities">
+            <option value="52">Ordu</option>
+            <option value="34">Istanbul</option>
+            <option value="06">Ankara</option>
+            <option value="55">Samsun</option>
+            <option value="01">Adana</option>
+        </select>
+     </div>
+     <div>
+        <label for="e-posta">Email</label>
+        <input type="email" id="e-posta">
+     </div>
+     <div>
+      <label for="birthday">Birthday:</label>
+      <input type="date" id="birthday" name="birthday">
+     </div>
+        
+
+
+
+
+        <button type="submit">Save</button>
+        <button type="reset"> reset</button>
+
+
+
+    </form>
+    
+    
+</body>
+</html>

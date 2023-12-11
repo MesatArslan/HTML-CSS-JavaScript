@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in Right Now</title>
+</head>
+<body>
+    <h1>PLEASE FİLL OUT THE FORM COMPELETLY!</h1>
+    <hr>
+
+    <form action="register.php">
+   
+    <h2>Account Information</h2>
+
+     <table>
+        <tr>
+            <td>Username:</td>
+            <td style="width: 45px;"></td>
+            <td><label for="name"></label>
+                <input type="text" id="name" placeholder="Enter Username">
+            </td>
+            
+        </tr>
+        <tr>
+            <td>E-posta:</td>
+            <td style="width: 45px;"></td>
+            
+            <td><label for="e-posta"></label>
+                <input type="email" id="e-posta" placeholder="Enter Email">
+            </td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td style="width: 30px;"></td>
+            <td><label for="password"></label>
+                <input type="password" id="password" placeholder="Enter Password">
+            </td>
+        </tr>
+     </table>
+    <h2>Personal Information</h2>
+     <table>
+        <tr>
+            <td>Name:</td>
+            <td style="width: 30px;"></td>
+            
+            <td><label for="name"></label>
+                <input type="text" id="name"
+                placeholder="Enter Name">
+            </td>
+        </tr>
+        <tr>
+            <td>Surname:</td>
+            <td style="width: 30px;"></td>
+            <td> <label for="surname"></label>
+                <input type="text" id="surname"
+                placeholder="Enter Surname">
+            </td>
+        </tr>
+        <tr>
+            <td>Cities:</td>
+            <td style="width: 30px;"></td>
+            <td> <label for="cities"></label>
+
+                <select id="cities">
+                    <option value="0">Seçiniz</option>
+                    <option value="52">Ordu</option>
+                    <option value="34">Istanbul</option>
+                    <option value="06">Ankara</option>
+                    <option value="55">Samsun</option>
+                    <option value="01">Adana</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Gender:</td>
+            <td style="width: 30px;"></td>
+            <td>
+                <input type="radio" id="kız" name="gender">
+                <label for="kız">Girl</label>        
+                <input type="radio" id="boy" name="gender">
+                <label for="boy">Boy</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Your Hobies:</td>
+            <td style="width: 30px;"></td>
+            <td>
+                <input type="checkbox" id="cinema" >
+                <label for="cinema">Cinema</label>        
+                <input type="checkbox" id="travel" >
+                <label for="travel">Travel</label>        
+                <input type="checkbox" id="spor" >
+                <label for="spor">Spor</label>
+                <input type="checkbox" id="book" >
+                <label for="book">Book</label>
+            </td>
+        </tr>
+
+     </table>
+     <button type="submit">Save</button>
+     <button type="reset">Reset</button>
+   
+    </form>
+    
+ 
+
+   
+    
+</body>
+</html>
