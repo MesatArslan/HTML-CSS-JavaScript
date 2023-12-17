@@ -1,0 +1,143 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid lightgray;
+    width: 600px;
+    height: auto;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 70px;
+    background-color: rgb(255, 207, 64);
+}
+
+.header-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-wrapper > h4{
+    margin : 15px;
+}
+
+
+/* Temel stillendirme */
+#amount {
+    padding: 10px; /* Input alanının içerisindeki içeriğin kenarlarından uzaklığı */
+    font-size: 16px; /* Yazı tipi boyutu */
+    border: 2px solid #ccc; /* Kenarlık rengi ve kalınlığı */
+    border-radius: 5px; /* Kenar yuvarlaklığı */
+    outline: none; /* Odaklandığında mavi çerçeveyi kaldırır */
+    width: 130px;
+  
+    /* İçinde metin varken placeholder rengi */
+    ::placeholder {
+      color: #999;
+    }
+  }
+  
+  /* Hover etkisi */
+  #amount:hover {
+    border-color: #999; /* Mouse hover olduğunda kenarlık rengi */
+  }
+  
+  /* Odaklanma etkisi */
+  #amount:focus {
+    border-color: #66afe9; /* Odaklandığında kenarlık rengi */
+  }
+  
+
+  /* Temel stillendirme */
+#firstCurrencyOption {
+    padding: 8px; /* Seçenekler arasındaki boşluk */
+    font-size: 14px; /* Yazı tipi boyutu */
+    border: 2px solid #ccc; /* Kenarlık rengi ve kalınlığı */
+    border-radius: 5px; /* Kenar yuvarlaklığı */
+    outline: none; /* Odaklandığında mavi çerçeveyi kaldırır */
+    width: 100px; /* Dropdown menü genişliği */
+  
+    /* Ok simgesi için */
+    appearance: none; /* Tarayıcı özgün ok simgesini kaldırır */
+    background-image: url('data:image/svg+xml;utf8,<svg fill="%23999" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>'); /* Özelleştirilmiş ok simgesi */
+    background-repeat: no-repeat;
+    background-position: right 8px top 50%; /* Ok simgesinin konumu */
+    padding-right: 25px; /* Ok simgesi ile içerik arasındaki boşluk */
+  
+    /* Hover etkisi */
+    &:hover {
+      border-color: #999; /* Mouse hover olduğunda kenarlık rengi */
+    }
+  
+    /* Odaklanma etkisi */
+    &:focus {
+      border-color: #00d034; /* Odaklandığında kenarlık rengi */
+    }
+  }
+  
+
+  /* Temel stillendirme */
+#secondCurrencyOption {
+    padding: 8px; /* Seçenekler arasındaki boşluk */
+    font-size: 14px; /* Yazı tipi boyutu */
+    border: 2px solid #ccc; /* Kenarlık rengi ve kalınlığı */
+    border-radius: 5px; /* Kenar yuvarlaklığı */
+    outline: none; /* Odaklandığında mavi çerçeveyi kaldırır */
+    width: 100px; /* Dropdown menü genişliği */
+  
+    /* Ok simgesi için */
+    appearance: none; /* Tarayıcı özgün ok simgesini kaldırır */
+    background-image: url('data:image/svg+xml;utf8,<svg fill="%23999" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>'); /* Özelleştirilmiş ok simgesi */
+    background-repeat: no-repeat;
+    background-position: right 8px top 50%; /* Ok simgesinin konumu */
+    padding-right: 25px; /* Ok simgesi ile içerik arasındaki boşluk */
+  
+    /* Hover etkisi */
+    &:hover {
+      border-color: #999; /* Mouse hover olduğunda kenarlık rengi */
+    }
+  
+    /* Odaklanma etkisi */
+    &:focus {
+      border-color: #66afe9; /* Odaklandığında kenarlık rengi */
+    }
+  }
+  
+
+  /* Temel stillendirme */
+#result {
+    padding: 10px; /* Input alanının içeriğin kenarlarından uzaklığı */
+    font-size: 16px; /* Yazı tipi boyutu */
+    border: 2px solid #ccc; /* Kenarlık rengi ve kalınlığı */
+    border-radius: 5px; /* Kenar yuvarlaklığı */
+    outline: none; /* Odaklandığında mavi çerçeveyi kaldırır */
+    width: 130px; /* Input alanı genişliği */
+  
+    /* İçinde metin varken placeholder rengi */
+    ::placeholder {
+      color: #999;
+    }
+  }
+  
+  /* Hover etkisi */
+  #result:hover {
+    border-color: #999; /* Mouse hover olduğunda kenarlık rengi */
+  }
+  
+  /* Odaklanma etkisi */
+  #result:focus {
+    border-color: #66afe9; /* Odaklandığında kenarlık rengi */
+  }
+  
+
+#span1{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}

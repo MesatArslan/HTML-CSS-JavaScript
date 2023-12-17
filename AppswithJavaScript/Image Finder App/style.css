@@ -1,0 +1,84 @@
+/* Genel stiller */
+.form-wrapper { 
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center
+    }
+  
+  #searchInput {
+    width: calc(100% - 700px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #38434d;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  .button-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+    padding: 10px 100px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  #searchButton {
+    background-color: #464646;
+    color: #fff;
+    box-shadow:1px 3px 5px #464646;
+  }
+  
+  #searchButton:hover {
+    background-color: #000000;
+  }
+  
+  #clearButton {
+    background-color: #fa0404;
+    color: #ffffff;
+    border: 1px solid #f26a6a;
+    box-shadow:1px 3px 5px #f26a6a;
+  }
+  
+  #clearButton:hover {
+    background-color: #940202;
+  }
+  
+  .imageList-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+  }
+
+  .card{
+    border: 1px solid grey;
+    width: calc(33.33% - 10px);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 4px 7px grey;
+    max-width: 410px; 
+  }
+
+  .imageList-wrapper img{
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+        max-width: 500px;
+        max-height: 400px;
+  }
